@@ -1,0 +1,48 @@
+{
+  "name": "GithubProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "apisauce": "^0.5.0",
+    "buffer": "^5.0.0",
+    "format-json": "^1.0.3",
+    "immutable": "^3.8.1",
+    "lodash": "^4.16.2",
+    "moment": "^2.15.1",
+    "native-base": "^0.5.9",
+    "react": "15.3.2",
+    "react-native": "0.35.0",
+    "react-native-animatable": "^0.6.0",
+    "react-native-config": "^0.1.0",
+    "react-native-device-info": "^0.9.5",
+    "react-native-drawer": "^2.3.0",
+    "react-native-i18n": "^0.1.1",
+    "react-native-image-progress": "^0.6.0",
+    "react-native-maps": "^0.8.2",
+    "react-native-progress": "^3.1.0",
+    "react-native-router-flux": "^3.35.0",
+    "react-native-vector-icons": "^2.1.0",
+    "react-redux": "4.4.5",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.6.1",
+    "redux-persist": "^3.5.0",
+    "redux-saga": "0.11.1",
+    "reduxsauce": "^0.2.0",
+    "seamless-immutable": "^6.1.1"
+  },
+  "jest": {
+    "preset": "jest-react-native"
+  },
+  "devDependencies": {
+    "babel-jest": "16.0.0",
+    "babel-preset-react-native": "1.9.0",
+    "jest": "16.0.1",
+    "jest-react-native": "16.0.0",
+    "react-test-renderer": "15.3.2",
+    "babel-eslint": "^6.1.2"
+  }
+}

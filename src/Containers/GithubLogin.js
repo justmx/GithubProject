@@ -36,10 +36,10 @@ onLoginPressed(){
 }
 
 componentWillMount(){
-  if(this.props.username){
-    console.log('Login successfully!');
-    NavigationActions.main();
-  }
+  // if(this.props.username){
+  //   console.log('Login successfully!');
+  //   NavigationActions.main();
+  // }
 }
 
 

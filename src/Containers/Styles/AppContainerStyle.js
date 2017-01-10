@@ -5,13 +5,13 @@ import { Colors, Metrics, ApplicationStyles } from '../../Themes/'
 export default StyleSheet.create({
   mainContainer: {
     flex: 1,
-    marginTop: Metrics.navBarHeight,
-    backgroundColor: Colors.transparent
+    // marginTop: Metrics.navBarHeight,
+    // backgroundColor: Colors.transparent
   },
   container: {
     flex: 1,
     //justifyContent: 'center',
-    paddingTop: 40,
+    paddingTop: 150,
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
     padding:10
